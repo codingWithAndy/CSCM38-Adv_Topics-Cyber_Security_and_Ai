@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{ml_nlp}
 {\sc Barba, P.}
@@ -8,10 +8,43 @@
 {\sc Brownlee, J.}
 \newblock What is natural language processing?, 2019.
 
+\bibitem{chomsky2002syntactic}
+{\sc Chomsky, N.}
+\newblock {\em Syntactic structures}.
+\newblock Walter de Gruyter, 2002.
+
+\bibitem{nlp_history}
+{\sc Foote, K.~D.}
+\newblock A brief history of natural language processing (nlp), 2019.
+
 \bibitem{goldberg2017neural}
 {\sc Goldberg, Y.}
 \newblock Neural network methods for natural language processing.
 \newblock {\em Synthesis Lectures on Human Language Technologies 10}, 1 (2017),
   1--309.
+
+\bibitem{what_ai}
+{\sc Knight, M.}
+\newblock What is artificial intelligence (ai)?, 2018.
+
+\bibitem{koerner2013ferdinand}
+{\sc Koerner, E.~F.}
+\newblock {\em Ferdinand de Saussure: Origin and development of his linguistic
+  thought in western studies of language}, vol.~7.
+\newblock Springer-Verlag, 2013.
+
+\bibitem{n_grams}
+{\sc Kumar, P.}
+\newblock An introduction to n-grams: What are they and why do we need them?,
+  2017.
+
+\bibitem{nlp_rnn}
+{\sc Le, J.}
+\newblock Recurrent neural networks: The powerhouse of language modeling, 2019.
+
+\bibitem{turing2004can}
+{\sc Turing, A., Braithwaite, R., Jefferson, G., and Newman, M.}
+\newblock Can automatic calculating machines be said to think?(1952).
+\newblock {\em B. Jack Copeland\/} (2004), 487.
 
 \end{thebibliography}
