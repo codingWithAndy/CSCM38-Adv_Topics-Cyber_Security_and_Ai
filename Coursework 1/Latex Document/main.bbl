@@ -1,5 +1,9 @@
 \begin{thebibliography}{1}
 
+\bibitem{ml_nlp}
+{\sc Barba, P.}
+\newblock Machine learning (ml) for natural language processing (nlp), 2020.
+
 \bibitem{nlp_definition}
 {\sc Brownlee, J.}
 \newblock What is natural language processing?, 2019.
