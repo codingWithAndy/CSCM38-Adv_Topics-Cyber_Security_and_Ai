@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{nlp_definition}
+{\sc Brownlee, J.}
+\newblock What is natural language processing?, 2019.
+
+\bibitem{goldberg2017neural}
+{\sc Goldberg, Y.}
+\newblock Neural network methods for natural language processing.
+\newblock {\em Synthesis Lectures on Human Language Technologies 10}, 1 (2017),
+  1--309.
+
+\end{thebibliography}
