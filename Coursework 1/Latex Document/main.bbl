@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{adv_in_ml}
+{\sc {Adventures in Machine Learning}}.
+\newblock Recurrent neural networks and lstm tutorial in python and tensorflow,
+  2020.
+
 \bibitem{ml_nlp}
 {\sc Barba, P.}
 \newblock Machine learning (ml) for natural language processing (nlp), 2020.
@@ -17,11 +22,22 @@
 {\sc Foote, K.~D.}
 \newblock A brief history of natural language processing (nlp), 2019.
 
+\bibitem{geron2019hands}
+{\sc G{\'e}ron, A.}
+\newblock {\em Hands-on machine learning with Scikit-Learn, Keras, and
+  TensorFlow: Concepts, tools, and techniques to build intelligent systems}.
+\newblock O'Reilly Media, 2019.
+
 \bibitem{goldberg2017neural}
 {\sc Goldberg, Y.}
 \newblock Neural network methods for natural language processing.
 \newblock {\em Synthesis Lectures on Human Language Technologies 10}, 1 (2017),
   1--309.
+
+\bibitem{hochreiter1997long}
+{\sc Hochreiter, S., and Schmidhuber, J.}
+\newblock Long short-term memory.
+\newblock {\em Neural computation 9}, 8 (1997), 1735--1780.
 
 \bibitem{what_ai}
 {\sc Knight, M.}
@@ -42,9 +58,32 @@
 {\sc Le, J.}
 \newblock Recurrent neural networks: The powerhouse of language modeling, 2019.
 
+\bibitem{lstm_networks}
+{\sc Olah, C.}
+\newblock Understanding lstm networks, 2015.
+
+\bibitem{illustrated_lstm_gru}
+{\sc Phi, M.}
+\newblock Illustrated guide to lstm’s and gru’s: A step by step
+  explanation, 2018.
+
+\bibitem{rnn_lstm_explained}
+{\sc purnasai gudikandula}.
+\newblock Recurrent neural networks and lstm explained, 2019.
+
+\bibitem{sak2014long}
+{\sc Sak, H., Senior, A.~W., and Beaufays, F.}
+\newblock Long short-term memory recurrent neural network architectures for
+  large scale acoustic modeling.
+
 \bibitem{turing2004can}
 {\sc Turing, A., Braithwaite, R., Jefferson, G., and Newman, M.}
 \newblock Can automatic calculating machines be said to think?(1952).
 \newblock {\em B. Jack Copeland\/} (2004), 487.
+
+\bibitem{zaremba2014recurrent}
+{\sc Zaremba, W., Sutskever, I., and Vinyals, O.}
+\newblock Recurrent neural network regularization.
+\newblock {\em arXiv preprint arXiv:1409.2329\/} (2014).
 
 \end{thebibliography}
