@@ -13,6 +13,13 @@
 {\sc Brownlee, J.}
 \newblock What is natural language processing?, 2019.
 
+\bibitem{cho2014learning}
+{\sc Cho, K., Van~Merri{\"e}nboer, B., Gulcehre, C., Bahdanau, D., Bougares,
+  F., Schwenk, H., and Bengio, Y.}
+\newblock Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation.
+\newblock {\em arXiv preprint arXiv:1406.1078\/} (2014).
+
 \bibitem{chomsky2002syntactic}
 {\sc Chomsky, N.}
 \newblock {\em Syntactic structures}.
@@ -21,6 +28,10 @@
 \bibitem{nlp_history}
 {\sc Foote, K.~D.}
 \newblock A brief history of natural language processing (nlp), 2019.
+
+\bibitem{g4g}
+{\sc {Geeks for Geeks}}.
+\newblock Understanding of lstm networks, 2020.
 
 \bibitem{geron2019hands}
 {\sc G{\'e}ron, A.}
@@ -34,10 +45,26 @@
 \newblock {\em Synthesis Lectures on Human Language Technologies 10}, 1 (2017),
   1--309.
 
+\bibitem{greff2016lstm}
+{\sc Greff, K., Srivastava, R.~K., Koutn{\'\i}k, J., Steunebrink, B.~R., and
+  Schmidhuber, J.}
+\newblock Lstm: A search space odyssey.
+\newblock {\em IEEE transactions on neural networks and learning systems 28},
+  10 (2016), 2222--2232.
+
+\bibitem{grus2019data}
+{\sc Grus, J.}
+\newblock {\em Data science from scratch: first principles with python}.
+\newblock O'Reilly Media, 2019.
+
 \bibitem{hochreiter1997long}
 {\sc Hochreiter, S., and Schmidhuber, J.}
 \newblock Long short-term memory.
 \newblock {\em Neural computation 9}, 8 (1997), 1735--1780.
+
+\bibitem{disater_kaggle}
+{\sc {Kaggle}}.
+\newblock Real or not? nlp with disaster tweets, 2020.
 
 \bibitem{what_ai}
 {\sc Knight, M.}

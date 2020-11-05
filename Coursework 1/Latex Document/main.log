@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  30 OCT 2020 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  5 NOV 2020 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,20 +209,26 @@ File: LSTM3-chain.png Graphic file (type png)
 <use LSTM3-chain.png>
 Package pdftex.def Info: LSTM3-chain.png  used on input line 96.
 (pdftex.def)             Requested size: 256.0748pt x 96.2123pt.
- [4 <./Recurrent-neural-network.png>] [5 <./LSTM3-chain.png>] (./main.bbl) [6] 
-(./main.aux)
+ [4 <./Recurrent-neural-network.png>]
+<GRU_example.png, id=29, 1045.9075pt x 853.1875pt>
+File: GRU_example.png Graphic file (type png)
+<use GRU_example.png>
+Package pdftex.def Info: GRU_example.png  used on input line 112.
+(pdftex.def)             Requested size: 227.62204pt x 185.67093pt.
+ [5 <./LSTM3-chain.png>] [6 <./GRU_example.png (PNG copy)>] [7] (./main.bbl [8]
+) [9] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2326 strings out of 492616
- 33440 string characters out of 6129480
- 108713 words of memory out of 5000000
- 6210 multiletter control sequences out of 15000+600000
+ 2338 strings out of 492616
+ 33627 string characters out of 6129480
+ 108746 words of memory out of 5000000
+ 6221 multiletter control sequences out of 15000+600000
  8542 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,1280b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,25p,1300b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -234,10 +240,10 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (6 pages, 359370 bytes).
+Output written on main.pdf (9 pages, 427032 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

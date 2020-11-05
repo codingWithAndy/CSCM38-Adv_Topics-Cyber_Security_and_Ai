@@ -23,51 +23,55 @@ Warning--entry type for "lstm_networks" isn't style-file defined
 --line 325 of file samples.bib
 Warning--entry type for "illustrated_lstm_gru" isn't style-file defined
 --line 332 of file samples.bib
-Repeated entry---line 424 of file samples.bib
+Warning--entry type for "g4g" isn't style-file defined
+--line 347 of file samples.bib
+Warning--entry type for "disater_kaggle" isn't style-file defined
+--line 372 of file samples.bib
+Repeated entry---line 465 of file samples.bib
  : @book{geron2019hands
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "jjslides"
 Warning--empty journal in sak2014long
-You've used 18 entries,
+You've used 23 entries,
             2253 wiz_defined-function locations,
-            870 strings with 11287 characters,
-and the built_in function-call counts, 4183 in all, are:
-= -- 369
-> -- 166
+            891 strings with 11985 characters,
+and the built_in function-call counts, 5637 in all, are:
+= -- 496
+> -- 251
 < -- 0
-+ -- 72
-- -- 52
-* -- 232
-:= -- 697
-add.period$ -- 43
-call.type$ -- 18
-change.case$ -- 77
++ -- 107
+- -- 82
+* -- 337
+:= -- 943
+add.period$ -- 56
+call.type$ -- 23
+change.case$ -- 106
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 162
-empty$ -- 409
-format.name$ -- 52
-if$ -- 873
+cite$ -- 24
+duplicate$ -- 209
+empty$ -- 526
+format.name$ -- 82
+if$ -- 1166
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 11
-newline$ -- 82
-num.names$ -- 36
-pop$ -- 134
+int.to.str$ -- 23
+missing$ -- 15
+newline$ -- 105
+num.names$ -- 46
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 62
+purify$ -- 87
 quote$ -- 0
-skip$ -- 125
+skip$ -- 158
 stack$ -- 0
-substring$ -- 151
-swap$ -- 35
+substring$ -- 207
+swap$ -- 45
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
+type$ -- 84
 warning$ -- 1
-while$ -- 41
-width$ -- 20
-write$ -- 159
+while$ -- 53
+width$ -- 25
+write$ -- 204
 (There was 1 error message)
