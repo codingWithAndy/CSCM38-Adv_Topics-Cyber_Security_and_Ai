@@ -27,51 +27,50 @@ Warning--entry type for "g4g" isn't style-file defined
 --line 347 of file samples.bib
 Warning--entry type for "disater_kaggle" isn't style-file defined
 --line 372 of file samples.bib
-Repeated entry---line 465 of file samples.bib
+Repeated entry---line 521 of file samples.bib
  : @book{geron2019hands
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "jjslides"
 Warning--empty journal in sak2014long
-You've used 23 entries,
+You've used 25 entries,
             2253 wiz_defined-function locations,
-            891 strings with 11985 characters,
-and the built_in function-call counts, 5637 in all, are:
-= -- 496
-> -- 251
+            898 strings with 12898 characters,
+and the built_in function-call counts, 7264 in all, are:
+= -- 613
+> -- 460
 < -- 0
-+ -- 107
-- -- 82
-* -- 337
-:= -- 943
-add.period$ -- 56
-call.type$ -- 23
-change.case$ -- 106
++ -- 191
+- -- 164
+* -- 513
+:= -- 1247
+add.period$ -- 62
+call.type$ -- 25
+change.case$ -- 153
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 209
-empty$ -- 526
-format.name$ -- 82
-if$ -- 1166
+cite$ -- 26
+duplicate$ -- 226
+empty$ -- 568
+format.name$ -- 164
+if$ -- 1450
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 15
-newline$ -- 105
-num.names$ -- 46
-pop$ -- 175
+int.to.str$ -- 25
+missing$ -- 16
+newline$ -- 115
+num.names$ -- 50
+pop$ -- 226
 preamble$ -- 1
-purify$ -- 87
+purify$ -- 132
 quote$ -- 0
-skip$ -- 158
+skip$ -- 171
 stack$ -- 0
-substring$ -- 207
-swap$ -- 45
+substring$ -- 217
+swap$ -- 49
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 92
 warning$ -- 1
-while$ -- 53
-width$ -- 25
-write$ -- 204
+while$ -- 57
+width$ -- 27
+write$ -- 223
 (There was 1 error message)

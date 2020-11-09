@@ -1,5 +1,17 @@
 \begin{thebibliography}{10}
 
+\bibitem{tensorflow}
+{\sc Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C.,
+  Corrado, G.~S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I.,
+  Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur,
+  M., Levenberg, J., Man\'{e}, D., Monga, R., Moore, S., Murray, D., Olah, C.,
+  Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P.,
+  Vanhoucke, V., Vasudevan, V., Vi\'{e}gas, F., Vinyals, O., Warden, P.,
+  Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X.}
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems,
+  2015.
+\newblock Software available from tensorflow.org.
+
 \bibitem{adv_in_ml}
 {\sc {Adventures in Machine Learning}}.
 \newblock Recurrent neural networks and lstm tutorial in python and tensorflow,
@@ -24,6 +36,11 @@
 {\sc Chomsky, N.}
 \newblock {\em Syntactic structures}.
 \newblock Walter de Gruyter, 2002.
+
+\bibitem{jjslides}
+{\sc Deng, J.}
+\newblock Lecture 02: Deep supervised learning.
+\newblock {\em Swansea University\/} (2020).
 
 \bibitem{nlp_history}
 {\sc Foote, K.~D.}
