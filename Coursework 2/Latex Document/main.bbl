@@ -1,0 +1,133 @@
+\begin{thebibliography}{10}
+
+\bibitem{tensorflow}
+{\sc Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C.,
+  Corrado, G.~S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I.,
+  Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur,
+  M., Levenberg, J., Man\'{e}, D., Monga, R., Moore, S., Murray, D., Olah, C.,
+  Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P.,
+  Vanhoucke, V., Vasudevan, V., Vi\'{e}gas, F., Vinyals, O., Warden, P.,
+  Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X.}
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems,
+  2015.
+\newblock Software available from tensorflow.org.
+
+\bibitem{adv_in_ml}
+{\sc {Adventures in Machine Learning}}.
+\newblock Recurrent neural networks and lstm tutorial in python and tensorflow,
+  2020.
+
+\bibitem{ml_nlp}
+{\sc Barba, P.}
+\newblock Machine learning (ml) for natural language processing (nlp), 2020.
+
+\bibitem{nlp_definition}
+{\sc Brownlee, J.}
+\newblock What is natural language processing?, 2019.
+
+\bibitem{cho2014learning}
+{\sc Cho, K., Van~Merri{\"e}nboer, B., Gulcehre, C., Bahdanau, D., Bougares,
+  F., Schwenk, H., and Bengio, Y.}
+\newblock Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation.
+\newblock {\em arXiv preprint arXiv:1406.1078\/} (2014).
+
+\bibitem{chomsky2002syntactic}
+{\sc Chomsky, N.}
+\newblock {\em Syntactic structures}.
+\newblock Walter de Gruyter, 2002.
+
+\bibitem{jjslides}
+{\sc Deng, J.}
+\newblock Lecture 02: Deep supervised learning.
+\newblock {\em Swansea University\/} (2020).
+
+\bibitem{nlp_history}
+{\sc Foote, K.~D.}
+\newblock A brief history of natural language processing (nlp), 2019.
+
+\bibitem{g4g}
+{\sc {Geeks for Geeks}}.
+\newblock Understanding of lstm networks, 2020.
+
+\bibitem{geron2019hands}
+{\sc G{\'e}ron, A.}
+\newblock {\em Hands-on machine learning with Scikit-Learn, Keras, and
+  TensorFlow: Concepts, tools, and techniques to build intelligent systems}.
+\newblock O'Reilly Media, 2019.
+
+\bibitem{goldberg2017neural}
+{\sc Goldberg, Y.}
+\newblock Neural network methods for natural language processing.
+\newblock {\em Synthesis Lectures on Human Language Technologies 10}, 1 (2017),
+  1--309.
+
+\bibitem{greff2016lstm}
+{\sc Greff, K., Srivastava, R.~K., Koutn{\'\i}k, J., Steunebrink, B.~R., and
+  Schmidhuber, J.}
+\newblock Lstm: A search space odyssey.
+\newblock {\em IEEE transactions on neural networks and learning systems 28},
+  10 (2016), 2222--2232.
+
+\bibitem{grus2019data}
+{\sc Grus, J.}
+\newblock {\em Data science from scratch: first principles with python}.
+\newblock O'Reilly Media, 2019.
+
+\bibitem{hochreiter1997long}
+{\sc Hochreiter, S., and Schmidhuber, J.}
+\newblock Long short-term memory.
+\newblock {\em Neural computation 9}, 8 (1997), 1735--1780.
+
+\bibitem{disater_kaggle}
+{\sc {Kaggle}}.
+\newblock Real or not? nlp with disaster tweets, 2020.
+
+\bibitem{what_ai}
+{\sc Knight, M.}
+\newblock What is artificial intelligence (ai)?, 2018.
+
+\bibitem{koerner2013ferdinand}
+{\sc Koerner, E.~F.}
+\newblock {\em Ferdinand de Saussure: Origin and development of his linguistic
+  thought in western studies of language}, vol.~7.
+\newblock Springer-Verlag, 2013.
+
+\bibitem{n_grams}
+{\sc Kumar, P.}
+\newblock An introduction to n-grams: What are they and why do we need them?,
+  2017.
+
+\bibitem{nlp_rnn}
+{\sc Le, J.}
+\newblock Recurrent neural networks: The powerhouse of language modeling, 2019.
+
+\bibitem{lstm_networks}
+{\sc Olah, C.}
+\newblock Understanding lstm networks, 2015.
+
+\bibitem{illustrated_lstm_gru}
+{\sc Phi, M.}
+\newblock Illustrated guide to lstm’s and gru’s: A step by step
+  explanation, 2018.
+
+\bibitem{rnn_lstm_explained}
+{\sc purnasai gudikandula}.
+\newblock Recurrent neural networks and lstm explained, 2019.
+
+\bibitem{sak2014long}
+{\sc Sak, H., Senior, A.~W., and Beaufays, F.}
+\newblock Long short-term memory recurrent neural network architectures for
+  large scale acoustic modeling.
+
+\bibitem{turing2004can}
+{\sc Turing, A., Braithwaite, R., Jefferson, G., and Newman, M.}
+\newblock Can automatic calculating machines be said to think?(1952).
+\newblock {\em B. Jack Copeland\/} (2004), 487.
+
+\bibitem{zaremba2014recurrent}
+{\sc Zaremba, W., Sutskever, I., and Vinyals, O.}
+\newblock Recurrent neural network regularization.
+\newblock {\em arXiv preprint arXiv:1409.2329\/} (2014).
+
+\end{thebibliography}

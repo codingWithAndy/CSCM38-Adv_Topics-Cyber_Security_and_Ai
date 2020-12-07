@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: acm.bst
+Database file #1: samples.bib
+Warning--entry type for "nlp_definition" isn't style-file defined
+--line 202 of file samples.bib
+Warning--entry type for "ml_nlp" isn't style-file defined
+--line 221 of file samples.bib
+Warning--entry type for "nlp_history" isn't style-file defined
+--line 228 of file samples.bib
+Warning--entry type for "nlp_rnn" isn't style-file defined
+--line 259 of file samples.bib
+Warning--entry type for "what_ai" isn't style-file defined
+--line 266 of file samples.bib
+Warning--entry type for "n_grams" isn't style-file defined
+--line 273 of file samples.bib
+Warning--entry type for "adv_in_ml" isn't style-file defined
+--line 280 of file samples.bib
+Warning--entry type for "rnn_lstm_explained" isn't style-file defined
+--line 300 of file samples.bib
+Warning--entry type for "lstm_networks" isn't style-file defined
+--line 325 of file samples.bib
+Warning--entry type for "illustrated_lstm_gru" isn't style-file defined
+--line 332 of file samples.bib
+Warning--entry type for "g4g" isn't style-file defined
+--line 347 of file samples.bib
+Warning--entry type for "disater_kaggle" isn't style-file defined
+--line 372 of file samples.bib
+Repeated entry---line 521 of file samples.bib
+ : @book{geron2019hands
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in sak2014long
+You've used 25 entries,
+            2253 wiz_defined-function locations,
+            898 strings with 12898 characters,
+and the built_in function-call counts, 7264 in all, are:
+= -- 613
+> -- 460
+< -- 0
++ -- 191
+- -- 164
+* -- 513
+:= -- 1247
+add.period$ -- 62
+call.type$ -- 25
+change.case$ -- 153
+chr.to.int$ -- 0
+cite$ -- 26
+duplicate$ -- 226
+empty$ -- 568
+format.name$ -- 164
+if$ -- 1450
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 16
+newline$ -- 115
+num.names$ -- 50
+pop$ -- 226
+preamble$ -- 1
+purify$ -- 132
+quote$ -- 0
+skip$ -- 171
+stack$ -- 0
+substring$ -- 217
+swap$ -- 49
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 92
+warning$ -- 1
+while$ -- 57
+width$ -- 27
+write$ -- 223
+(There was 1 error message)
