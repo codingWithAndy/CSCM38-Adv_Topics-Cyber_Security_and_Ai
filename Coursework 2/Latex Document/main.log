@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  12 DEC 2020 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  13 DEC 2020 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -94,35 +94,51 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 (/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(./main.aux)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip46
+\multirow@cntb=\count93
+\multirow@dima=\skip47
+\bigstrutjot=\dimen106
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen107
+\ar@mcellbox=\box27
+\extrarowheight=\dimen108
+\NC@list=\toks17
+\extratabsurround=\skip48
+\backup@length=\skip49
+\ar@cellbox=\box28
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
-\scratchdimen=\dimen106
-\scratchbox=\box27
-\nofMPsegments=\count94
-\nofMParguments=\count95
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count96
-\MPscratchDim=\dimen107
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count94
+\scratchdimen=\dimen109
+\scratchbox=\box29
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen110
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks19
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -175,52 +191,514 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 24.
+(Font)              <12> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
+(Font)              <6> on input line 35.
 
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 57.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 57.
-
-Overfull \hbox (4.36176pt too wide) in paragraph at lines 59--60
+[2]
+Overfull \hbox (4.36176pt too wide) in paragraph at lines 70--71
 []\OT1/cmr/m/n/10 An ex-am-ple dis-as-ter text is "malaysia air-lines flight 37
 0 dis-ap-peared 17months
  []
 
-[2] [3] (./main.bbl
+[3] [4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 105.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 105.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 224
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 224
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 224
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 224
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 225
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 225
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 225
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 225
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 229
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 229
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 229
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 229
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 230
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 230
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 230
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 230
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 248
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 248
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 248
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 248
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 249
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 249
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 249
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 249
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 253
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 253
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 253
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 253
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 254
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 254
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 254
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 254
+ $[]$ 
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 271
+ $[]$ 
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 271
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 271
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 271
+ $[]$ 
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 272
+ $[]$ 
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 272
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 272
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 272
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 276
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 276
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 276
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 276
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 277
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 277
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 277
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 277
+ $[]$ 
+ []
+
+[6] [7] (./main.bbl
 Underfull \hbox (badness 1292) in paragraph at lines 20--26
 []\OT1/cmr/m/sc/10 Pedregosa, F., Varo-quaux, G., Gram-fort, A., Michel, V.,
  []
 
-) [4] (./main.aux) ) 
+) [8] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2288 strings out of 492616
- 32732 string characters out of 6129480
- 106604 words of memory out of 5000000
- 6177 multiletter control sequences out of 15000+600000
- 8542 words of font info for 30 fonts, out of 8000000 for 9000
+ 2407 strings out of 492616
+ 34378 string characters out of 6129480
+ 128160 words of memory out of 5000000
+ 6285 multiletter control sequences out of 15000+600000
+ 9762 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,949b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,28p,951b,271s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti10.pfb>
-Output written on main.pdf (4 pages, 118183 bytes).
+ts/cm/cmbx9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb>
+Output written on main.pdf (8 pages, 149811 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
