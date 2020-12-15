@@ -37,7 +37,7 @@
 \section{Introduction}
 \label{sec:intro}
 	% Introduction
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	We have previously stated in a prior report that we will be conducting an experiment that will be comparing two Recurrent Neural Network (RNN) cells. The two cells we proposed to compare are the LSTM (Long Short Term Memory) and the GRU (Gated Recurrent Unit) cell. LSTMs got introduced in 1997 \cite{hochreiter1997long}, and they aimed to solve the RNNs long term memory problem as they were only able to have a short term memory along, along with solving additional issues the RNNs had. 
 
 	% Problem Overview
 	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -91,36 +91,34 @@
 	
 	The metric selected in the model's initiation was the accuracy metric, and we used 20 epochs for training. However, we did use a total of three different cells for each model. These were 32, 64 and 128 cells. We have done this to see how these affect the models training speed and performance in predicting.  
 	
-	Each LSTM and GRU also had an embedding layer of the number of unique words, by 32 and input length of the maximum size. Additionally, all variations had a dense output layer with an activation function of sigmoid and 1 neuron. The variations to the RNNs came in the hidden layers. One version had only 2 hidden layers while another had 4 layers. Each hidden layer had a dropout rate of 0.1. For the RNNs with 2 hidden layers, the return sequence was false, and for the 4 hidden layers, this was true.
+	Each LSTM and GRU both had an embedding layer of the number of unique words, by 32 and input length of the maximum size. Additionally, all variations had a dense output layer with an activation function of sigmoid and one neuron. The variations to the RNNs came in the hidden layers. One version had only two hidden layers while another had four layers. Each hidden layer had a dropout rate of 0.1. For the RNNs with two hidden layers, the return sequence was false, and for the four hidden layers, this was true. While both RNN variations are both a deep version, we will refer to the RNN with more layers as the deep network and the lesser one as just the network.
+	
 
-\section{Results and Discussion}
+\section{Results}
 
 	When we compare the direct metrics that were produced by the model's while they were training (see table \ref{tab:training_time}), we can see that the LSTM with 32 cells trained the fastest with an average time of 30.2 seconds while the most prolonged time training was the deep LSTM with 147.456 seconds. A fascinating insight is that the GRU became quicker when we added more layers and cells and then beat the LSTM when we had 128 cells. The GRU, with 128 cells beat the LSTM by 2.476 seconds, and the deep GRU beat the Deep LSTM by 39.294 seconds.
 
 
 
-	\begin{table}[ht]
-		\centering
-		\small
-		\begin{tabular}[t]{ | c | c | c | c | c | }
-			\hline
-			Number of Cells & LSTM & GRU & Deep LSTM & Deep GRU \\ 
-			\hline
-			32 & 30.2 secs & 33.608 secs & 81.772 secs & 84.288 secs \\ 
-			\hline
-			64 & 35.876 secs & 36.504 secs & 96.626 secs & 103.72 secs  \\ 
-			\hline
-			128 & 44.892 secs & 42.416 secs & 147.456 secs & 108.162 secs \\
-			\hline
-		\end{tabular}
+	%\begin{table}[ht]
+	%	\centering
+	%	\small
+	%	\begin{tabular}[t]{ | c | c | c | c | c | }
+	%		\hline
+	%		Number of Cells & LSTM & GRU & Deep LSTM & Deep GRU \\ 
+	%		\hline
+	%		32 & 30.2 secs & 33.608 secs & 81.772 secs & 84.288 secs \\ 
+	%		\hline
+	%		64 & 35.876 secs & 36.504 secs & 96.626 secs & 103.72 secs  \\ 
+	%		\hline
+	%		128 & 44.892 secs & 42.416 secs & 147.456 secs & 108.162 secs \\
+	%		\hline
+	%	\end{tabular}
 		% Or to place a caption below a table
-		\caption{The RNNs average training times.}
-		\label{tab:training_time}
-	\end{table}%
-
-	When we look at the model's metric results for 32 cells (see table \ref{tab:32_metrics}, we can see that deep GRU had the best scores for all of the metrics apart from the loss and validation loss. However, when we compare the prediction accuracy to the LSTM's scores, we can see that the LSTM had only 0.006\% less but took 63.27 seconds less to train and all its other metrics were very close to the deep GRU. Therefore, showing that there is not much difference in the predicted output compared to the overall training time.
-
-
+	%	\caption{The RNNs average training times.}
+	%	\label{tab:training_time}
+	%\end{table}%
+	
 	\begin{table}[ht]
 		\centering
 		\small
@@ -144,10 +142,9 @@
 		\label{tab:32_metrics}
 	\end{table}%
 
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+	When we look at the model's metric results for 32 cells (see table \ref{tab:32_metrics}, we can see that deep GRU had the best scores for all of the metrics apart from the loss and validation loss. However, when we compare the prediction accuracy to the LSTM's scores, we can see that the LSTM had only 0.006\% less but took 63.27 seconds less to train and all its other metrics were very close to the deep GRU. Therefore, showing that there is not much difference in the predicted output compared to the overall training time.
 
-
-	\begin{table}[ht]
+		\begin{table}[ht]
 		\centering
 		\small
 		\begin{tabular}[t]{ | c | c | c | c | c | }
@@ -169,9 +166,9 @@
 		\caption{64 cells training metric results.}
 		\label{tab:64_metrics}
 	\end{table}%
+	
 
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-
+	When we look at the model's metric results for 64 cells (see table \ref{tab:64_metrics}), We can see that the first GRU has had better results in all the metrics apart from the validation loss, which was the deep GRU by 0.043. However, overall the results were very close. With all variations of the RNN having a prediction accuracy of 0.766. Apart from the deep LSTM which had a prediction accuracy of 0.770.
 
 
 	\begin{table}[ht]
@@ -197,9 +194,55 @@
 		\label{tab:128_metrics}
 	\end{table}%
 
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
+	When we look at the results of the 128 cells (see table \ref{tab:128_metrics}), the model's metrics results start to show that the GRU is beginning to establish dominance over the other model types. It had the best prediction accuracy with 0.771, the closest accuracy to it was 0.04 lower and the deep LSTM. However, in contrast, the deep GRU had the worst scores but yet had the quickest training time.
+	
+	\begin{table}[ht]
+		\centering
+		\small
+		\begin{tabular}{c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l}
+			\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering LSTM}}} & 
+			& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering GRU}}} & 
+			& \multicolumn{2}{c}{} & \\ 
+			&  & \MyBox{1199}{} & \MyBox{330}{} &  &  & \MyBox{1175}{} & \MyBox{314}{} &  \\[2.4em]
+			&  & \MyBox{247}{} & \MyBox{737}{} &  &  & \MyBox{271}{} & \MyBox{753}{} &  \\
+			\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep LSTM}}} & 
+			& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep GRU}}} & 
+			& \multicolumn{2}{c}{} & \\
+			&  & \MyBox{1191}{} & \MyBox{339}{} &  &  & \MyBox{1236}{} & \MyBox{327}{} &  \\[2.4em]
+			&  & \MyBox{255}{} & \MyBox{728}{} &  &  & \MyBox{210}{} & \MyBox{714}{} &  \\
+			
+		\end{tabular}
+		\caption{32 cells confusion matrix results.}
+		\label{tab:32_cm}
+	\end{table}
+	
+	The results show that the 64 neurons for both the LSTM and deep LSTM RNN, the better it had done compared to the GRU. However, the 64 cells deep LSTM took 2.7 times longer than the LSTM and only had 0.004 higher prediction accuracy. However, the more cells the GRU had but fewer layers, the better the GRU performed but would take longer to train than the LSTM counterpart. Still, in contrast, the more layers and cells the deep GRU had, the quicker it would train compared to the deep LSTM version but had lesser accuracy, even compared to the standard GRU. 
 
+	\begin{table}[ht]
+		\centering
+		\small
+		\begin{tabular}{c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l}
+			\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering LSTM}}} & 
+			& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering GRU}}} & 
+			& \multicolumn{2}{c}{} & \\ 
+			&  & \MyBox{1167}{} & \MyBox{310}{} &  &  & \MyBox{1174}{} & \MyBox{315}{} &  \\[2.4em]
+			&  & \MyBox{279}{} & \MyBox{757}{} &  &  & \MyBox{272}{} & \MyBox{752}{} &  \\
+			\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep LSTM}}} & 
+			& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep GRU}}} & 
+			& \multicolumn{2}{c}{} & \\
+			&  & \MyBox{1208}{} & \MyBox{340}{} &  &  & \MyBox{1182}{} & \MyBox{324}{} &  \\[2.4em]
+			&  & \MyBox{238}{} & \MyBox{727}{} &  &  & \MyBox{264}{} & \MyBox{743}{} &  \\
+			
+		\end{tabular}
+		\caption{64 cells confusion matrix results.}
+		\label{tab:64_cm}
+	\end{table}
+
+	When we look at the 32 cell confusion matrix average (see table \ref{tab:32_cm}), All the models tended towards a false negative. Therefore meaning the odds of a prediction, when it is wrong, to be predicting a negative for the text of the tweet but was positive was more likely. However, when we look at all the confusion matrixes (see tables \ref{tab:64_cm}, \ref{tab:128_cm}), we can see that all the models tended a false negative, which means that all the models are more likely to give a false negative rather than a false positive. 
+	
+
+	
 
 %	\noindent
 %	\renewcommand\arraystretch{1.5}
@@ -213,76 +256,30 @@
 %		& total & P & N &
 %	\end{tabular}
 
+	\begin{table}
+		\centering
+		\small
+		\begin{tabular}{c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l}
+			\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering LSTM}}} & 
+			& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering GRU}}} & 
+			& \multicolumn{1}{c}{} & \\ 
+			&  & \MyBox{1178}{TP} & \MyBox{320}{FN} &  &  & \MyBox{1173}{} & \MyBox{304}{} &  \\[2.4em]
+			&  & \MyBox{268}{FP} & \MyBox{747}{TN} &  &  & \MyBox{273}{} & \MyBox{763}{} &  \\
+			\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep LSTM}}} & 
+			& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep GRU}}} & 
+			& \multicolumn{2}{c}{} & \\
+			&  & \MyBox{1191}{} & \MyBox{331}{} &  &  & \MyBox{1163}{} & \MyBox{313}{} &  \\[2.4em]
+			&  & \MyBox{255}{} & \MyBox{736}{} &  &  & \MyBox{283}{} & \MyBox{754}{} &  \\
+			
+		\end{tabular}
+		\caption{128 cells confusion matrix results.}
+		\label{tab:128_cm}
+	\end{table}
 
-\begin{table}[ht]
-	\centering
-	\small
-	\begin{tabular}{c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l}
-		\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering LSTM}}} & 
-		& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering GRU}}} & 
-		& \multicolumn{2}{c}{} & \\ 
-		&  & \MyBox{119}{} & \MyBox{330}{} &  &  & \MyBox{1175}{} & \MyBox{314}{} &  \\[2.4em]
-		&  & \MyBox{247}{} & \MyBox{737}{} &  &  & \MyBox{271}{} & \MyBox{753}{} &  \\
-		\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep LSTM}}} & 
-		& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep GRU}}} & 
-		& \multicolumn{2}{c}{} & \\
-		&  & \MyBox{1191}{} & \MyBox{339}{} &  &  & \MyBox{1236}{} & \MyBox{327}{} &  \\[2.4em]
-		&  & \MyBox{255}{} & \MyBox{728}{} &  &  & \MyBox{210}{} & \MyBox{714}{} &  \\
-		
-	\end{tabular}
-	\caption{32 cells confusion matrix results.}
-	\label{tab:32_cm}
-\end{table}
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-
-\begin{table}[ht]
-	\centering
-	\small
-	\begin{tabular}{c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l}
-		\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering LSTM}}} & 
-		& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering GRU}}} & 
-		& \multicolumn{2}{c}{} & \\ 
-		&  & \MyBox{1167}{} & \MyBox{310}{} &  &  & \MyBox{1174}{} & \MyBox{315}{} &  \\[2.4em]
-		&  & \MyBox{279}{} & \MyBox{757}{} &  &  & \MyBox{272}{} & \MyBox{752}{} &  \\
-		\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep LSTM}}} & 
-		& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep GRU}}} & 
-		& \multicolumn{2}{c}{} & \\
-		&  & \MyBox{1208}{} & \MyBox{340}{} &  &  & \MyBox{1182}{} & \MyBox{324}{} &  \\[2.4em]
-		&  & \MyBox{238}{} & \MyBox{727}{} &  &  & \MyBox{264}{} & \MyBox{743}{} &  \\
-		
-	\end{tabular}
-	\caption{64 cells confusion matrix results.}
-	\label{tab:64_cm}
-\end{table}
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-\begin{table}
-	\centering
-	\small
-	\begin{tabular}{c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l c >{\bfseries}r @{\hspace{0.7em}}c @{\hspace{0.4em}}c @{\hspace{0.7em}}l}
-		\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering LSTM}}} & 
-		& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering GRU}}} & 
-		& \multicolumn{1}{c}{} & \\ 
-		&  & \MyBox{1178}{TP} & \MyBox{320}{FN} &  &  & \MyBox{1173}{} & \MyBox{304}{} &  \\[2.4em]
-		&  & \MyBox{268}{FP} & \MyBox{747}{TN} &  &  & \MyBox{273}{} & \MyBox{763}{} &  \\
-		\multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep LSTM}}} & 
-		& \multicolumn{2}{c}{} & \multirow{10}{*}{\rotatebox{90}{\parbox{1.1cm}{\bfseries\centering Deep GRU}}} & 
-		& \multicolumn{2}{c}{} & \\
-		&  & \MyBox{1191}{} & \MyBox{331}{} &  &  & \MyBox{1163}{} & \MyBox{313}{} &  \\[2.4em]
-		&  & \MyBox{255}{} & \MyBox{736}{} &  &  & \MyBox{283}{} & \MyBox{754}{} &  \\
-		
-	\end{tabular}
-	\caption{128 cells confusion matrix results.}
-	\label{tab:128_cm}
-\end{table}
-
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	When the Confusion matrixes had a less FN, they would tend to have more false positives (FP), but the overall FN would still be more. The model variation that had the most FN was the deep LSTM with 64 cells, but the 32 celled deep LSTM was only one prediction away. The variation with the most FP was the deep GRU with 128 cells.
 	
+	The GRU variations seem to have more of the tendency to have higher FP scores compared to the LSTM versions. However, these were still less than the FN scores.  
+
 	%\begin{table}[ht]
 	%	\centering
 	%	\small
@@ -304,8 +301,12 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 		%\label{tab:cm_acc}
 	%\end{table}%
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
+
+\section{Discussion}
+
+
+\section{Conclusion}
 
 \medskip
 \newpage

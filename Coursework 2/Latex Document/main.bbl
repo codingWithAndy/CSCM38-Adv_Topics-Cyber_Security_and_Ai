@@ -12,6 +12,11 @@
   2015.
 \newblock Software available from tensorflow.org.
 
+\bibitem{hochreiter1997long}
+{\sc Hochreiter, S., and Schmidhuber, J.}
+\newblock Long short-term memory.
+\newblock {\em Neural computation 9}, 8 (1997), 1735--1780.
+
 \bibitem{disater_kaggle}
 {\sc {Kaggle}}.
 \newblock Real or not? nlp with disaster tweets, 2020.

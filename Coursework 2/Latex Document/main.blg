@@ -9,45 +9,45 @@ Repeated entry---line 561 of file samples.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 3 entries,
+You've used 4 entries,
             2253 wiz_defined-function locations,
-            806 strings with 10574 characters,
-and the built_in function-call counts, 2420 in all, are:
-= -- 179
-> -- 291
+            815 strings with 10701 characters,
+and the built_in function-call counts, 2762 in all, are:
+= -- 215
+> -- 303
 < -- 0
-+ -- 117
-- -- 114
-* -- 259
-:= -- 447
-add.period$ -- 8
-call.type$ -- 3
-change.case$ -- 66
++ -- 122
+- -- 118
+* -- 290
+:= -- 501
+add.period$ -- 11
+call.type$ -- 4
+change.case$ -- 71
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 25
-empty$ -- 76
-format.name$ -- 114
-if$ -- 427
+cite$ -- 4
+duplicate$ -- 34
+empty$ -- 105
+format.name$ -- 118
+if$ -- 497
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 1
-newline$ -- 17
-num.names$ -- 6
-pop$ -- 74
+int.to.str$ -- 4
+missing$ -- 2
+newline$ -- 22
+num.names$ -- 8
+pop$ -- 77
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 67
 quote$ -- 0
-skip$ -- 20
+skip$ -- 25
 stack$ -- 0
-substring$ -- 46
-swap$ -- 6
+substring$ -- 82
+swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 16
 warning$ -- 0
-while$ -- 8
-width$ -- 4
-write$ -- 30
+while$ -- 12
+width$ -- 5
+write$ -- 40
 (There was 1 error message)

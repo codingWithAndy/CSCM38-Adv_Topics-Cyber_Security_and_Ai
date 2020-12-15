@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  13 DEC 2020 19:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  15 DEC 2020 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -206,88 +206,173 @@ Overfull \hbox (4.36176pt too wide) in paragraph at lines 70--71
 0 dis-ap-peared 17months
  []
 
-[3] [4]
+[3]
+
+LaTeX Warning: Reference `tab:training_time' on page 4 undefined on input line 
+99.
+
+[4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 105.
+(Font)              <9> on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 105.
+(Font)              <5> on input line 125.
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 224
+Overfull \hbox (19.91684pt too wide) detected at line 207
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 224
+Overfull \hbox (19.91684pt too wide) detected at line 207
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 224
+Overfull \hbox (19.91684pt too wide) detected at line 207
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 224
+Overfull \hbox (19.91684pt too wide) detected at line 207
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 225
+Overfull \hbox (19.91684pt too wide) detected at line 208
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 225
+Overfull \hbox (19.91684pt too wide) detected at line 208
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 225
+Overfull \hbox (19.91684pt too wide) detected at line 208
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 225
+Overfull \hbox (19.91684pt too wide) detected at line 208
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 212
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 212
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 212
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 212
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 213
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 213
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 213
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+
+ []
+
+
+Overfull \hbox (19.91684pt too wide) detected at line 213
  $[]$ 
  []
 
@@ -372,168 +457,158 @@ Overfull \hbox (19.91684pt too wide) detected at line 230
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 248
+Overfull \hbox (19.91684pt too wide) detected at line 234
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 248
+Overfull \hbox (19.91684pt too wide) detected at line 234
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 248
+Overfull \hbox (19.91684pt too wide) detected at line 234
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 248
+Overfull \hbox (19.91684pt too wide) detected at line 234
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 249
+Overfull \hbox (19.91684pt too wide) detected at line 235
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 249
+Overfull \hbox (19.91684pt too wide) detected at line 235
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 249
+Overfull \hbox (19.91684pt too wide) detected at line 235
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 249
+Overfull \hbox (19.91684pt too wide) detected at line 235
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 253
+Overfull \hbox (19.91684pt too wide) detected at line 266
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 253
+Overfull \hbox (19.91684pt too wide) detected at line 266
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 253
+Overfull \hbox (19.91684pt too wide) detected at line 266
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 253
+Overfull \hbox (19.91684pt too wide) detected at line 266
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 254
+Overfull \hbox (19.91684pt too wide) detected at line 267
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 254
+Overfull \hbox (19.91684pt too wide) detected at line 267
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 254
+Overfull \hbox (19.91684pt too wide) detected at line 267
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) detected at line 254
+Overfull \hbox (19.91684pt too wide) detected at line 267
  $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+
  []
 
 
 Overfull \hbox (19.91684pt too wide) detected at line 271
  $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+
  []
 
 
@@ -562,8 +637,18 @@ Overfull \hbox (19.91684pt too wide) detected at line 271
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+
+ []
+
+
 Overfull \hbox (19.91684pt too wide) detected at line 272
  $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+
  []
 
 
@@ -588,114 +673,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--272
 
 
 Overfull \hbox (19.91684pt too wide) detected at line 272
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 276
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 276
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 276
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 276
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 277
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 277
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 277
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-
- []
-
-
-Overfull \hbox (19.91684pt too wide) detected at line 277
  $[]$ 
  []
 
 [6] [7] (./main.bbl
-Underfull \hbox (badness 1292) in paragraph at lines 20--26
+Underfull \hbox (badness 1292) in paragraph at lines 25--31
 []\OT1/cmr/m/sc/10 Pedregosa, F., Varo-quaux, G., Gram-fort, A., Michel, V.,
  []
 
-) [8] (./main.aux) ) 
+) [8] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2407 strings out of 492616
- 34378 string characters out of 6129480
- 128160 words of memory out of 5000000
- 6285 multiletter control sequences out of 15000+600000
+ 2408 strings out of 492616
+ 34398 string characters out of 6129480
+ 125156 words of memory out of 5000000
+ 6286 multiletter control sequences out of 15000+600000
  9762 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,28p,951b,271s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb>
-Output written on main.pdf (8 pages, 149811 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (8 pages, 150354 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
