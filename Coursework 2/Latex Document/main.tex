@@ -15,13 +15,13 @@
 \usepackage{array}
 \parskip .8ex
 
-%\setlength{\droptitle}{-15em} %%%% Add this line if need more space. %%%%
+\setlength{\droptitle}{-15em} %%%% Add this line if need more space. %%%%
 
 %Begining of the document
 \newcommand\MyBox[2]{
-	\fbox{\lower0.75cm
+	\fbox{\lower0.8cm
 		\vbox to 0.7cm{\vfil
-			\hbox to 0.7cm{\hfil\parbox{1.4cm}{#1\\#2}\hfil}
+			\hbox to 0.7cm{\hfil\parbox{1.0cm}{#1\\#2}\hfil}
 			\vfil}%
 	}%
 }
@@ -43,10 +43,14 @@
 	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 	% Preblem specific
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	With so many people using the internet \cite{internet_facts}, websites and web applications will get a lot of traffic and visits to them. However, these users expect fast responses from the apps, as 1 in 4 people who visit a website will leave the site if it takes longer than 4 seconds to load. User satisfaction drops by an extra 16\% for every 1-second delay \cite{internet_speed}. So the responsive time to apps is critical for user satisfaction. While Twitter, a popular social media platform, has 330 million active users monthly, which is 145 million a day \cite{twitter_facts}.  Twitter also has 500 million tweets posted a day \cite{twitter_facts}. Twitter is a great way for people to pass on information as well as to contact services.
+	
+	With the literature saying that there is not much between the LSTM and GRU cell, we want to see what RNN would be better to solve a real-world problem in terms of understanding people's tweets and potentially get used for deployment. Based on the criteria of the RNN being accurate and fast to train and deploy.
 
 	% Overview of project and the results
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	We will be using a dataset that contains Twitter tweets that are about disasters \cite{disater_kaggle}. However, some tweets are not about a disaster. We aim to compare variations of an LSTM and GRU RNNs to see what model is the best at performing this task of labelling and predicting the tweets to see if they are about disasters or not. Four different RNN variations, two LSTMs and two GRUs got compared against each other. The model had the same parameters, and the same dataset got used, but the number of cells was the variable that was changed. 32, 64 and 128 cells got used in comparison with each model, with each model getting tested five times, with the average score then used for the comparison. The dataset got resplit for each of the five runs. However, the same dataset was used for all iterations of the RNNs to get tested upon on each run. 
+	
+	The results did show that the performance between the cells was indeed very close with the deeper LSTM and GRU variations taking longer to train as expected than the not as deep iterations of the RNNs. However, the more cells and layers the RNNs had, the quicker the GRUs got in regards to training compared to the LSTM versions. Still, these improvements didn't seem to be valid enough, taking into account the small gains they had but with a much more significant amount of training time required. The LSTM with the fewer amount layers and 32 neurons did not have the highest accuracy and metrics but was the quickest to train, with 33.608 seconds and a 0.770 prediction accuracy. Still, in comparison, its overall results were near the top in contrast to the other RNN variations. Which we believe could be down to the nature of the dataset and their not being a large amount of text to analyse. However, all the models did tend to provide a false negative (FN). So, therefore, before this could get used to predicting potential disasters, this bias would have to be rectified, if possible.
 
 	% Overview of the Report
 	We will be exploring the proposed solution and the libraries, dataset, preprocessing, algorithms, metrics that will get used for comparison and the NN parameters that we used. We will then be analysing the results, and discussing what insights they provide, ending with a conclusion.
@@ -56,7 +60,7 @@
 	We will be creating an experiment that will compare the two different types of RNN cells, the LSTM and the GRU. We used several parameters to train and test the different RNNs as well as several other metrics to be able to compare the performance of the cells. The RNNs aim to be able to accurately predict if a Tweet posted on Twitter is about a real disaster or not. This experiment used many different Python 3 libraries.
 
 \subsection{Libraries \& Frameworks}
-	We used a collection of different Python 3 libraries to conduct this experiment. We used Tensorflow 2 \cite{tensorflow} for creating the RNN model, LSTM and GRU cells. It got also used for preprocessing the text and sequence with 'Tokenizer' and 'Pad Sequence'. We used Sci-Kit Learn \cite{scikit-learn} for splitting the dataset and for creating the confusion matrix. Additionally, Pandas \cite{} got used for handling the dataset and Numpy to allow the other libraries to be able to do their scientific calculations. We also used NLTK \cite{} for NLP's stop words as well as some of Python's extra libraries os, time, re and string. 
+	We used a collection of different Python 3 libraries to conduct this experiment. We used Tensorflow 2 \cite{tensorflow} for creating the RNN model, LSTM and GRU cells. It got also used for preprocessing the text and sequence with 'Tokenizer' and 'Pad Sequence'. We used Sci-Kit Learn \cite{scikit-learn} for splitting the dataset and for creating the confusion matrix. Additionally, Pandas \cite{pandas} got used for handling the dataset and Numpy to allow the other libraries to be able to do their scientific calculations. We also used NLTK \cite{nltk} for NLP's stop words as well as some of Python's extra libraries os, time, re and string. 
 
 \subsection{Dataset and Preprocessing}
 	We used a dataset from Kaggle called "Natural Language Processing with Disaster Tweets" \cite{disater_kaggle}. While a training and CSV file is available, we decided to use the training set due to the test dataset not having any labels. Therefore if we used this dataset, it would be hard to compare how well each cell performed on with an unseen dataset.
@@ -67,15 +71,15 @@
 	
 	Once the dataset was all preprocessed, we split the data set into 2/3 training 1/3 testing. We also then split the training set into an 80/20 split of training and validation data. We did this to see if the dataset was getting overfitted within its training. Additionally, we did this to add an extra method of comparison between the cells. We then tokenised the unique words to create a word index to give the text a number representation for feeding through the RNNs. We then padded the sentence to 20 sequences. We did this to ensure that the length of text within the text would all match up, as the tweets have varying sizes anyway and with the previous clean up actions being down, potentially additional text has also been removed.   
 	
-	An example disaster text is "malaysia airlines flight 370 disappeared 17months ago debris found south indian ocean" and a non-disaster is "walk plank sinking ship".
+	An example disaster text is "malaysia airlines flight 370 disappeared 17 months ago debris found south indian ocean" and a non-disaster is "walk plank sinking ship".
 
 \subsection{Algorithms}
 	For this experiment, we will use the LSTM and the GRU cells. These are both modifications of the RNN. The vanilla RNN, an unaltered RNN, is a robust network. However, it suffers from some issues. These issues are that it only has a short term memory, a suffers from a vanishing gradient point and an exploding gradient too.
 	
 	\subsubsection{LSTM}
-		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		
 	\subsubsection{GRU}
-		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		
 
 \subsection{Metrics for Comparison}
 	To be able to compare the model's performances, we used several metrics. These metrics include the time it took to train the model, the model's accuracy and loss, along with a validation loss and accuracy. We used the time to see how long it would take to train the model. We only timed how long the models took to train from the moment we ran the fit method and not with the initial set up the parameters. This action was to allow us to be able to see how long exactly the model took to complete the number of epochs set and finishing training. We used the accuracy, loss and validation metrics as additional information to see if the model was overfitting. 

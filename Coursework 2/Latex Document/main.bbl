@@ -21,6 +21,14 @@
 {\sc {Kaggle}}.
 \newblock Real or not? nlp with disaster tweets, 2020.
 
+\bibitem{twitter_facts}
+{\sc Lin, Y.}
+\newblock 10 twitter statistics every marketer should know in 2021, 2020.
+
+\bibitem{internet_speed}
+{\sc Monaghan, M.}
+\newblock Website load time statistics: Why speed matters in 2020, 2020.
+
 \bibitem{scikit-learn}
 {\sc Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B.,
   Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V.,
@@ -28,5 +36,9 @@
   Duchesnay, E.}
 \newblock Scikit-learn: Machine learning in {P}ython.
 \newblock {\em Journal of Machine Learning Research 12\/} (2011), 2825--2830.
+
+\bibitem{internet_facts}
+{\sc {Visual Oak}}.
+\newblock Internet facts, history, & resources for 2020, 2020.
 
 \end{thebibliography}

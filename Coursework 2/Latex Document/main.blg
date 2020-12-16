@@ -9,45 +9,51 @@ Repeated entry---line 561 of file samples.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 4 entries,
+Warning--entry type for "internet_speed" isn't style-file defined
+--line 573 of file samples.bib
+Warning--entry type for "internet_facts" isn't style-file defined
+--line 580 of file samples.bib
+Warning--entry type for "twitter_facts" isn't style-file defined
+--line 587 of file samples.bib
+You've used 7 entries,
             2253 wiz_defined-function locations,
-            815 strings with 10701 characters,
-and the built_in function-call counts, 2762 in all, are:
-= -- 215
-> -- 303
+            824 strings with 10932 characters,
+and the built_in function-call counts, 3371 in all, are:
+= -- 266
+> -- 324
 < -- 0
-+ -- 122
-- -- 118
-* -- 290
-:= -- 501
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 71
++ -- 131
+- -- 124
+* -- 314
+:= -- 597
+add.period$ -- 17
+call.type$ -- 7
+change.case$ -- 83
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 34
-empty$ -- 105
-format.name$ -- 118
-if$ -- 497
+cite$ -- 7
+duplicate$ -- 58
+empty$ -- 174
+format.name$ -- 124
+if$ -- 629
 int.to.chr$ -- 0
-int.to.str$ -- 4
+int.to.str$ -- 7
 missing$ -- 2
-newline$ -- 22
-num.names$ -- 8
-pop$ -- 77
+newline$ -- 34
+num.names$ -- 14
+pop$ -- 104
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 76
 quote$ -- 0
-skip$ -- 25
+skip$ -- 49
 stack$ -- 0
-substring$ -- 82
-swap$ -- 8
+substring$ -- 97
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 16
+type$ -- 28
 warning$ -- 0
-while$ -- 12
-width$ -- 5
-write$ -- 40
+while$ -- 18
+width$ -- 8
+write$ -- 64
 (There was 1 error message)
