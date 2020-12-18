@@ -5,55 +5,65 @@ The style file: acm.bst
 Database file #1: samples.bib
 Warning--entry type for "disater_kaggle" isn't style-file defined
 --line 372 of file samples.bib
+Repeated entry---line 521 of file samples.bib
+ : @book{geron2019hands
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 561 of file samples.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "internet_speed" isn't style-file defined
---line 573 of file samples.bib
-Warning--entry type for "internet_facts" isn't style-file defined
---line 580 of file samples.bib
-Warning--entry type for "twitter_facts" isn't style-file defined
---line 587 of file samples.bib
-You've used 7 entries,
+Repeated entry---line 601 of file samples.bib
+ : @inproceedings{ mckinney-proc-scipy-2010
+ :                                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 618 of file samples.bib
+ : @article{cho2014learning
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 625 of file samples.bib
+ : @book{geron2019hands
+ :                     ,
+I'm skipping whatever remains of this entry
+You've used 12 entries,
             2253 wiz_defined-function locations,
-            824 strings with 10932 characters,
-and the built_in function-call counts, 3371 in all, are:
-= -- 266
-> -- 324
+            851 strings with 12087 characters,
+and the built_in function-call counts, 5001 in all, are:
+= -- 407
+> -- 417
 < -- 0
-+ -- 131
-- -- 124
-* -- 314
-:= -- 597
-add.period$ -- 17
-call.type$ -- 7
-change.case$ -- 83
++ -- 168
+- -- 156
+* -- 427
+:= -- 869
+add.period$ -- 32
+call.type$ -- 12
+change.case$ -- 112
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 58
-empty$ -- 174
-format.name$ -- 124
-if$ -- 629
+cite$ -- 12
+duplicate$ -- 129
+empty$ -- 306
+format.name$ -- 156
+if$ -- 970
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 2
-newline$ -- 34
-num.names$ -- 14
-pop$ -- 104
+int.to.str$ -- 12
+missing$ -- 8
+newline$ -- 59
+num.names$ -- 26
+pop$ -- 144
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 101
 quote$ -- 0
-skip$ -- 49
+skip$ -- 92
 stack$ -- 0
-substring$ -- 97
-swap$ -- 14
+substring$ -- 150
+swap$ -- 32
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
+type$ -- 46
 warning$ -- 0
-while$ -- 18
-width$ -- 8
-write$ -- 64
-(There was 1 error message)
+while$ -- 31
+width$ -- 14
+write$ -- 112
+(There were 5 error messages)

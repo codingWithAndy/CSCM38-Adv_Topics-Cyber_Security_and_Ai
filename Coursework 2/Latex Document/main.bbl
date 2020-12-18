@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{tensorflow}
 {\sc Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C.,
@@ -12,6 +12,25 @@
   2015.
 \newblock Software available from tensorflow.org.
 
+\bibitem{cho2014learning}
+{\sc Cho, K., Van~Merri{\"e}nboer, B., Gulcehre, C., Bahdanau, D., Bougares,
+  F., Schwenk, H., and Bengio, Y.}
+\newblock Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation.
+\newblock {\em arXiv preprint arXiv:1406.1078\/} (2014).
+
+\bibitem{chung2014empirical}
+{\sc Chung, J., Gulcehre, C., Cho, K., and Bengio, Y.}
+\newblock Empirical evaluation of gated recurrent neural networks on sequence
+  modeling.
+\newblock {\em arXiv preprint arXiv:1412.3555\/} (2014).
+
+\bibitem{geron2019hands}
+{\sc G{\'e}ron, A.}
+\newblock {\em Hands-on machine learning with Scikit-Learn, Keras, and
+  TensorFlow: Concepts, tools, and techniques to build intelligent systems}.
+\newblock O'Reilly Media, 2019.
+
 \bibitem{hochreiter1997long}
 {\sc Hochreiter, S., and Schmidhuber, J.}
 \newblock Long short-term memory.
@@ -24,6 +43,20 @@
 \bibitem{twitter_facts}
 {\sc Lin, Y.}
 \newblock 10 twitter statistics every marketer should know in 2021, 2020.
+
+\bibitem{Loper02nltk:the}
+{\sc Loper, E., and Bird, S.}
+\newblock Nltk: The natural language toolkit.
+\newblock In {\em In Proceedings of the ACL Workshop on Effective Tools and
+  Methodologies for Teaching Natural Language Processing and Computational
+  Linguistics. Philadelphia: Association for Computational Linguistics\/}
+  (2002).
+
+\bibitem{mckinney-proc-scipy-2010}
+{\sc McKinney, W.}
+\newblock Data structures for statistical computing in python.
+\newblock In {\em Proceedings of the 9th Python in Science Conference\/}
+  (2010), S.~van~der Walt and J.~Millman, Eds., pp.~51 -- 56.
 
 \bibitem{internet_speed}
 {\sc Monaghan, M.}
@@ -39,6 +72,6 @@
 
 \bibitem{internet_facts}
 {\sc {Visual Oak}}.
-\newblock Internet facts, history, & resources for 2020, 2020.
+\newblock Internet facts, history, and resources for 2020, 2020.
 
 \end{thebibliography}
