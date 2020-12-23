@@ -25,11 +25,22 @@
   modeling.
 \newblock {\em arXiv preprint arXiv:1412.3555\/} (2014).
 
+\bibitem{g4g}
+{\sc {Geeks for Geeks}}.
+\newblock Understanding of lstm networks, 2020.
+
 \bibitem{geron2019hands}
 {\sc G{\'e}ron, A.}
 \newblock {\em Hands-on machine learning with Scikit-Learn, Keras, and
   TensorFlow: Concepts, tools, and techniques to build intelligent systems}.
 \newblock O'Reilly Media, 2019.
+
+\bibitem{greff2016lstm}
+{\sc Greff, K., Srivastava, R.~K., Koutn{\'\i}k, J., Steunebrink, B.~R., and
+  Schmidhuber, J.}
+\newblock Lstm: A search space odyssey.
+\newblock {\em IEEE transactions on neural networks and learning systems 28},
+  10 (2016), 2222--2232.
 
 \bibitem{hochreiter1997long}
 {\sc Hochreiter, S., and Schmidhuber, J.}
@@ -61,6 +72,10 @@
 \bibitem{internet_speed}
 {\sc Monaghan, M.}
 \newblock Website load time statistics: Why speed matters in 2020, 2020.
+
+\bibitem{lstm_networks}
+{\sc Olah, C.}
+\newblock Understanding lstm networks, 2015.
 
 \bibitem{scikit-learn}
 {\sc Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B.,

@@ -3,6 +3,10 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: acm.bst
 Database file #1: samples.bib
+Warning--entry type for "lstm_networks" isn't style-file defined
+--line 325 of file samples.bib
+Warning--entry type for "g4g" isn't style-file defined
+--line 347 of file samples.bib
 Warning--entry type for "disater_kaggle" isn't style-file defined
 --line 372 of file samples.bib
 Repeated entry---line 521 of file samples.bib
@@ -25,45 +29,45 @@ Repeated entry---line 625 of file samples.bib
  : @book{geron2019hands
  :                     ,
 I'm skipping whatever remains of this entry
-You've used 12 entries,
+You've used 15 entries,
             2253 wiz_defined-function locations,
-            851 strings with 12087 characters,
-and the built_in function-call counts, 5001 in all, are:
-= -- 407
-> -- 417
+            866 strings with 12423 characters,
+and the built_in function-call counts, 5842 in all, are:
+= -- 483
+> -- 458
 < -- 0
-+ -- 168
-- -- 156
-* -- 427
-:= -- 869
-add.period$ -- 32
-call.type$ -- 12
-change.case$ -- 112
++ -- 185
+- -- 170
+* -- 486
+:= -- 1005
+add.period$ -- 39
+call.type$ -- 15
+change.case$ -- 128
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 129
-empty$ -- 306
-format.name$ -- 156
-if$ -- 970
+cite$ -- 15
+duplicate$ -- 154
+empty$ -- 381
+format.name$ -- 170
+if$ -- 1143
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 8
-newline$ -- 59
-num.names$ -- 26
-pop$ -- 144
+int.to.str$ -- 15
+missing$ -- 9
+newline$ -- 72
+num.names$ -- 32
+pop$ -- 168
 preamble$ -- 1
-purify$ -- 101
+purify$ -- 114
 quote$ -- 0
-skip$ -- 92
+skip$ -- 113
 stack$ -- 0
-substring$ -- 150
-swap$ -- 32
+substring$ -- 196
+swap$ -- 38
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 46
+type$ -- 58
 warning$ -- 0
-while$ -- 31
-width$ -- 14
-write$ -- 112
+while$ -- 39
+width$ -- 17
+write$ -- 138
 (There were 5 error messages)
